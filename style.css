@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #082032;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 2px solid #f0a500;
+  margin: 0px auto;
+}
+
+.img-circle img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-darkgrey {
+  padding: 20px;
+  margin-bottom: 30px;
+  background: #334756;
+  border-radius: 10px;
+}
+
+.card-top {
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+
+.card-title {
+  color: #f0a500;
+}
+
+.btn-orange {
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+  border: 2px solid #f0a500;
+  color: #f0a500;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  color: #082032;
+  background-color: #f0a500;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+/* .li-social {
+  padding: 0px 10px;
+} */
+li i{
+  font-size: 3em;
+  color: white;
+}
+
+li i:hover {
+  color: #f0a500;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
